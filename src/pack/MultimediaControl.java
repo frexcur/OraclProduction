@@ -20,5 +20,4 @@ public interface MultimediaControl {
   public void previous();
 
   public void next();
-
 }

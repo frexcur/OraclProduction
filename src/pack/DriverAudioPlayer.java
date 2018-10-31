@@ -15,8 +15,6 @@ public class DriverAudioPlayer {
   public static void main(String[] args) {
 
     AudioPlayer a1 = new AudioPlayer("hi", "AU");
-
     a1.play();
-
   }
 }

@@ -6,8 +6,8 @@
  * Main method of program
  *
  ************************************************/
-package pack;
 
+package pack;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -21,7 +21,6 @@ public class Main {
     products.addAll(DriverCollections.testCollection());
     Collections.sort(products);
     DriverCollections.print(products);
-
   }
 
 }

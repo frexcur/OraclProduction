@@ -8,13 +8,11 @@
  *
  ************************************************/
 
-
 package pack;
 
 import java.util.ArrayList;
 
 public class DriverCollections {
-
 
   //Creating testCollection method
   static ArrayList<Product> testCollection() {
@@ -37,7 +35,7 @@ public class DriverCollections {
   }
 
   //Using a stream to go through every item in an ArrayList and print it out
-  static void print(ArrayList<Product> a1) {
+  static <T> void print(ArrayList<T> a1) {
     a1.stream()
         .forEach(System.out::println);
   }

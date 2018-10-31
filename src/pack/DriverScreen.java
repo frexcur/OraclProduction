@@ -1,4 +1,3 @@
-
 /***********************************************
  * Author: Freiddy Curiel
  *
@@ -8,6 +7,7 @@
  * the Screen class
  *
  ************************************************/
+
 package pack;
 
 public class DriverScreen {

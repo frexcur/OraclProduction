@@ -15,7 +15,6 @@ public enum ItemType {
 
   //enum constant
   public final String code;
-
   /* Constructor is private by default
    *  Allows me to use strings in the parenthesis above
    */

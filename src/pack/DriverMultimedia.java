@@ -16,13 +16,10 @@ public class DriverMultimedia {
   public static void main(String[] args) {
 
     AudioPlayer a1 = new AudioPlayer("hi", "AU");
-
     a1.play();
 
-    MoviePlayer m1 = new MoviePlayer("hi", new Screen("1080", 60, 1), MonitorType.LCD);
-
+    MoviePlayer m1 = new MoviePlayer("hi", new Screen("1080", 60, 1)
+        , MonitorType.LCD);
     m1.play();
-
-
   }
 }

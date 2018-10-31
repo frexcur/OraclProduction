@@ -17,5 +17,4 @@ public interface ScreenSpec {
   public int getRefreshRate();
 
   public int getResponseTime();
-
 }
